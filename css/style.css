@@ -1,0 +1,315 @@
+/* One Use Item */
+body {
+    background-color: #0C70AC;
+    margin: 0px;
+}
+
+hr {
+    color: white;
+}
+
+h1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    
+}
+
+.EnjoyH1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 0
+}
+
+.HeaderP {
+    font-family: "Quicksand", sans-serif;
+    font-size: 32px;
+    color: white;
+    -webkit-text-stroke: 1px #073956;
+    font-weight: 700;
+    opacity: 0.5;
+    text-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.H1Destinations {
+    display: flex;
+    flex-direction: row;
+}
+
+.H1Destinations h1 {
+    padding-top: 35px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.H1Destinations1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.H1Destinations1 h1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.Card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+}
+
+.PadingDiv {
+    padding-bottom: 110px;
+}
+
+.Cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.Card h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 0
+}
+
+.Card p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    border: none;
+}
+
+.Card span {
+    font-family: "Quicksand", sans-serif;
+    color: #7C7C7C;
+}
+
+.Card span:hover {
+    color: #F4DE1F;
+}
+/* Selections Code */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.Hero {
+    display: flex;
+    flex-direction: row;
+    gap: 450px;
+}
+
+footer {
+    display: flex;
+    background-color:#001C2D;
+    flex-direction: row;
+}
+
+.HR {
+    display: flex;
+    background-color:#001C2D
+}
+
+.Destinations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6E6E6;
+}
+
+.Book {
+    font-family: "Quicksand", sans-serif;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.Year {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    color: #7C7C7C;
+    padding-top: 20px;
+    font-weight: 600;
+    padding-left: 25px;
+    justify-content: flex-start;
+}
+
+.Info {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    color: #7C7C7C;
+    font-weight: 600;
+    padding-left: 25px;
+    justify-content: flex-start;
+}
+
+.BlogName {
+    font-family: "Quicksand", sans-serif;
+    padding-left: 25px;
+}
+
+/* Text List Code */
+.TextList {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 24px;
+    flex-direction: row;
+    list-style: none;
+    gap: 90px;
+    margin-top: 55px;
+    padding-bottom: 25px;
+}
+.This {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #F4DE1F;
+    font-size: 24px;
+}
+
+li:hover {
+    font-weight: bold;
+    color: #F4DE1F;
+}
+
+/* Text Column Code */
+.TextColumn {
+    margin-left: 150px;
+    margin-top: 120px;
+}
+
+.GalleryTitle {
+    padding-top: 40px;
+    color: white;
+    font-size: 40px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
+
+.GalleryTitle1 {
+    padding-top: 40px;
+    color: white;
+    font-size: 40px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    flex-direction: column;
+}
+
+.Gallery {
+    padding-left: 100px;
+}
+
+.Gallery1 {
+    padding-left: 300px;
+}
+
+.ImagesBlock {
+    padding-top: 25px;
+}
+
+.ImagesBlock1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Images {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.Images1 {
+    padding-top: 25px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.Images2 {
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+}
+
+.Images2 p:hover {
+    color: #F4DE1F;
+}
+
+.Images2 p {
+    color: white;
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
+
+.Images3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.Images3 p:hover {
+    color: #F4DE1F;
+}
+
+.Images3 p {
+    padding-left: 250px;
+    color: white;
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
+
+.PadingDiv1 {
+    padding-bottom: 75px;
+    background-color: #001C2D;
+}
+
+.Footer2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Footer3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.Divers2023 {
+    opacity: 0.5;
+    color: white;
+    font-family: "Inter", sans-serif;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-weight: 400;
+    font-style: none;
+}
+
+.Divers2023Div {
+    display: flex;
+    justify-content: center;
+    border-top: 1px white solid;
+    background-color: #001C2D;
+}
